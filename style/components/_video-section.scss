@@ -140,5 +140,8 @@
 @media (max-width: 325px) {
   #video-section {
     padding: 0 5px;
+    .icon-boxes .icon-box p {
+      font-size: 12px;
+    }
   }
 }
