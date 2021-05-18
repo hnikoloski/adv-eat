@@ -320,7 +320,8 @@ a:focus {
   margin-bottom: 50px;
 }
 #video-section .video-wrapper {
-  margin-bottom: 70px;
+  max-width: 720px;
+  margin: 0 auto 70px auto;
 }
 #video-section .video-wrapper #my-video {
   border-radius: 5px;

@@ -32,7 +32,8 @@
     margin-bottom: 50px;
   }
   .video-wrapper {
-    margin-bottom: 70px;
+    max-width: 720px;
+    margin: 0 auto 70px auto;
     #my-video {
       @include borderRadius(5px);
       overflow: hidden;
