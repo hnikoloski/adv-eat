@@ -420,12 +420,14 @@ a:focus {
     overflow-x: hidden;
   }
 }
+@media (max-width: 375px) {
+  #video-section .icon-boxes .icon-box p {
+    font-size: 12px;
+  }
+}
 @media (max-width: 325px) {
   #video-section {
     padding: 0 5px;
-  }
-  #video-section .icon-boxes .icon-box p {
-    font-size: 12px;
   }
 }
 #contact form {
