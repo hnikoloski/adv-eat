@@ -1,0 +1,15 @@
+footer {
+  margin-top: 80px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  .img-wrapper {
+    width: 96px;
+    margin: 0 auto 15px auto;
+  }
+  p {
+    margin-bottom: 15px;
+    font-size: 15px;
+    font-weight: $regular;
+    color: #5d5d5d;
+  }
+}

@@ -1,0 +1,119 @@
+#help-you {
+  margin-top: 47px;
+  position: relative;
+  padding-bottom: 210px;
+  &::after {
+    position: absolute;
+    content: "";
+    background: url("../../img/help-deco-after.svg");
+    @include bg-props(contain, center, no-repeat);
+    bottom: 0;
+    @include hor-center();
+    width: 332px;
+    height: 156px;
+  }
+  p {
+    color: $dblue;
+    font-size: 18px;
+    line-height: 1.4;
+    b {
+      font-weight: $bold;
+    }
+    &.intro {
+      text-align: center;
+      max-width: 55ch;
+      margin: 0 auto;
+    }
+  }
+  span {
+    &.g {
+      color: $green;
+    }
+  }
+  .card-box {
+    max-width: 30ch;
+    margin: 0 auto;
+    .img-wrapper {
+      margin: 0 auto 25px auto;
+      width: 75px;
+    }
+  }
+  .deco-wrapper {
+    margin: 0 auto;
+    width: 422px;
+    img {
+      &.mob-img {
+        display: none;
+      }
+    }
+  }
+  .decorative-row {
+    &::before {
+      content: "";
+      position: absolute;
+      background: url("../../img/carot.svg");
+      @include bg-props(contain, center, no-repeat);
+      width: 128px;
+      height: 142px;
+      top: -120px;
+      left: 130px;
+    }
+    &::after {
+      content: "";
+      position: absolute;
+      background: url("../../img/leaf.svg");
+      @include bg-props(contain, center, no-repeat);
+      width: 128px;
+      height: 142px;
+      bottom: 0;
+      right: 130px;
+    }
+  }
+}
+@media (max-width: 1024px) {
+  #help-you p {
+    br {
+      display: none;
+    }
+  }
+}
+@media (max-width: 768px) {
+  #help-you {
+    padding-bottom: 130px;
+    &::after {
+      width: 240px;
+    }
+    .decorative-row {
+      &::before,
+      &::after {
+        display: none;
+      }
+    }
+    p {
+      margin-bottom: 40px;
+      text-align: center;
+      font-size: 1rem;
+      &.intro {
+        margin: 15px auto;
+        font-size: 1rem;
+      }
+    }
+    .card-box {
+      .img-wrapper {
+        display: none;
+      }
+    }
+    .do-order-1 {
+      order: 1;
+    }
+    .do-order-2 {
+      order: 2;
+    }
+    .deco-wrapper {
+      width: 259px;
+      position: relative;
+      top: -35px;
+      z-index: -1;
+    }
+  }
+}

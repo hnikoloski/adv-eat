@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&display=swap");
+
+@import "./helpers/resets.scss";
+@import "./helpers/typography.scss";
+@import "./helpers/variables.scss";
+@import "./helpers/helpers.scss";
+@import "./components/hero";
+@import "./components/help-section";
+@import "./components/video-section";
+@import "./components/contact";
+@import "./components/footer";
+* {
+  font-family: "Josefin Sans", sans-serif;
+}
+p {
+  &.blue-p {
+    font-size: 18px;
+    color: $dblue;
+    line-height: 1.4;
+    b {
+      font-weight: $bold;
+    }
+    span.g {
+      color: $green;
+    }
+  }
+}
+.decorative-txt {
+  color: #1e756f;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 1.2;
+  margin-bottom: 30px;
+  span {
+    position: relative;
+    &::before {
+      content: "";
+      position: absolute;
+      left: -1%;
+      bottom: 0;
+      @include borderRadius(25px);
+      width: 102%;
+      height: 60%;
+      background: #1e756f;
+      opacity: 0.1;
+    }
+  }
+}
