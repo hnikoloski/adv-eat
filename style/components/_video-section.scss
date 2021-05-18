@@ -4,7 +4,7 @@
     position: absolute;
     z-index: -99999;
     left: 0;
-    top: -63%;
+    top: -75%;
     width: 100%;
     height: auto;
 
@@ -36,6 +36,8 @@
     #my-video {
       @include borderRadius(5px);
       overflow: hidden;
+      height: 440px;
+      padding: 15px;
     }
   }
   .icon-boxes {

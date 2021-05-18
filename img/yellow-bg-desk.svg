@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1367" height="1680" viewBox="0 0 1367 1680">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_170" data-name="Rectangle 170" width="1367" height="1680" transform="translate(-1 660)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="yellow-bg-desk" transform="translate(1 -660)" clip-path="url(#clip-path)">
+    <path id="yellow-bg" d="M476.378,463.518s395.058-531.526,1347.3-302.283,1133.942,444.646,1010.5,1026.57-705.362,599.558,0,1322.555S4085.4,3572.5,2976.973,3425.545,1365.565,2665.3,1365.565,1607.262,476.378,463.518,476.378,463.518Z" transform="translate(-2503.496 2493.624) rotate(-62)" fill="#f8b234" opacity="0.251"/>
+  </g>
+</svg>

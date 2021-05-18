@@ -13,3 +13,10 @@ footer {
     color: #5d5d5d;
   }
 }
+@media (max-width: 768px) {
+  footer p {
+    line-height: 2;
+    max-width: 25ch;
+    margin: 0 auto;
+  }
+}
