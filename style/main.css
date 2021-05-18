@@ -358,20 +358,23 @@ a:focus {
 
 @media (max-width: 1440px) {
   #video-section .deco-img {
-    top: -47%;
+    top: -60%;
   }
 }
 @media (max-width: 1366px) {
   #video-section .deco-img {
-    top: -49%;
+    top: -57%;
   }
 }
 @media (max-width: 1024px) {
   #video-section .deco-img {
-    top: -40%;
+    top: -44%;
   }
 }
 @media (max-width: 768px) {
+  #video-section .deco-img {
+    top: -62%;
+  }
   #video-section h3 {
     margin-top: 5px;
   }
@@ -400,6 +403,26 @@ a:focus {
   #video-section .icon-boxes .icon-box .img-wrapper img {
     height: 100%;
     object-fit: contain;
+  }
+}
+@media (max-width: 425px) {
+  #video-section {
+    padding: 0 35px;
+  }
+  #video-section .deco-img.mob-img {
+    display: block;
+    width: 166%;
+    height: 150%;
+    object-fit: cover;
+    object-position: center;
+    left: -66%;
+    top: -66%;
+    overflow-x: hidden;
+  }
+}
+@media (max-width: 325px) {
+  #video-section {
+    padding: 0 5px;
   }
 }
 #contact form {
