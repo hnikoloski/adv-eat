@@ -554,7 +554,7 @@ footer p {
 @media (max-width: 768px) {
   footer p {
     line-height: 2;
-    max-width: 25ch;
+    max-width: 26ch;
     margin: 0 auto;
   }
 }
